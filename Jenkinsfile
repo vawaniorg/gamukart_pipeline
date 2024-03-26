@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage("build ") {
+    stage("build") {
       steps {     
         bat 'mvn clean install'
       }
@@ -11,19 +11,19 @@ pipeline {
         bat 'echo stage 3 completed'
       }
     }
-    stage("stage4 ") {
+    stage("stage4") {
       steps {     
         bat 'echo stage 4 completed'
       }
     }
-    stage("stage5 ") {
+    stage("stage5") {
       steps {     
-        bat 'echo stage 5 completed '
+        bat 'echo stage 5 completed'
       }
     }
-    stage("stage6 ") {
+    stage("stage6") {
       steps {     
-        bat 'echo stage 6 completed '
+        bat 'echo stage 6 completed'
       }
     }
   }
